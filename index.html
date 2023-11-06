@@ -56,7 +56,7 @@ Click me to display Date and Time.</button>
 <p id="section3"></p>
 
 <script>
-let x = myFunction(5, 5);
+let x = myFunction(5, 4);
 document.getElementById("section3").innerHTML = x;
 
 function myFunction(a, b) {
@@ -78,6 +78,16 @@ let value = toCelsius(77);
 document.getElementById("section4").innerHTML = value;
 </script>
 
+<h2>JavaScript Objects</h2>
+<p id="section5"></p>
+
+<script>
+// Create an object:
+const car = {type:"Acura", model:"TL", color:"Pearl White"};
+
+// Display some data from the object:
+document.getElementById("section5").innerHTML = "The car type is " + car.type + " " + car.model + "and the color is " + car.color;
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
