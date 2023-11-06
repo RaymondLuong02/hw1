@@ -29,7 +29,6 @@
 </ul>
     </div>
     
-//Number 1
 <h2>JavaScript Section</h2>
 
 <button type="button"
@@ -38,7 +37,6 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
     
-//Number 2
 <h2>What Can JavaScript Do?</h2>
 
 <p>JavaScript can change HTML attribute values.</p>
@@ -51,7 +49,34 @@ Click me to display Date and Time.</button>
 
 <button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
 
-//Number 3
+<h1>JavaScript Calculations</h1>
+
+<p>Call a function which performs a calculation and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
+</script>
+
+<h1>Temperature</h1>
+
+<p>Invoke (call) a function that converts from Fahrenheit to Celsius:</p>
+<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(77);
+document.getElementById("demo").innerHTML = value;
+</script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
