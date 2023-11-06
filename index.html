@@ -32,7 +32,7 @@
 <h2>JavaScript Section</h2>
 
 <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
+onclick="document.getElementById('section1').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="section1"></p>
@@ -56,8 +56,8 @@ Click me to display Date and Time.</button>
 <p id="section3"></p>
 
 <script>
-let x = myFunction(4, 3);
-document.getElementById("demo").innerHTML = x;
+let x = myFunction(5, 5);
+document.getElementById("section3").innerHTML = x;
 
 function myFunction(a, b) {
   return a * b;
@@ -75,7 +75,7 @@ function toCelsius(f) {
 }
 
 let value = toCelsius(77);
-document.getElementById("demo").innerHTML = value;
+document.getElementById("section4").innerHTML = value;
 </script>
 
 
